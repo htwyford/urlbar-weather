@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Firefox Address Bar Weather Prototype",
+  "version": "0.1.0",
+  "description": "Adds a weather forecast item to the Firefox Urlbar.",
+  "applications": {
+    "gecko": {
+      "id": "urlbar-weather@mozilla.org",
+      "strict_min_version": "73.0"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "urlbar-weather@mozilla.org",
+      "strict_min_version": "73.0"
+    }
+  },
+  "permissions": [
+    "https://api.darksky.net/*",
+    "https://dev.virtualearth.net/*",
+    "geolocation",
+    "runtime",
+    "urlbar"
+  ],
+  "background": {
+    "scripts": [
+      "background.js",
+      "secret_keys.js"
+    ]
+  },
+  "web_accessible_resources": ["icons/*.svg"],
+  "hidden": true
+}
