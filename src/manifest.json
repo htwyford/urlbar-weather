@@ -6,13 +6,13 @@
   "applications": {
     "gecko": {
       "id": "urlbar-weather@mozilla.org",
-      "strict_min_version": "73.0"
+      "strict_min_version": "72.0"
     }
   },
   "browser_specific_settings": {
     "gecko": {
       "id": "urlbar-weather@mozilla.org",
-      "strict_min_version": "73.0"
+      "strict_min_version": "72.0"
     }
   },
   "permissions": [
