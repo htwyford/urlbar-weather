@@ -28,5 +28,4 @@ const BING_SECRET_KEY = "<YOUR_API_KEY_HERE>";
 5. Search for "weather" or "weather in `<LOCATION_NAME>`" in the Urlbar.
 
 ## Known issues
-- The UrlbarProvider must be set to "restricting" since the UrlbarMuxer does not
-  always surface the weather result.
+- After a weather result has been shown, subsequent results can be the wrong size.
