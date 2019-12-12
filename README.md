@@ -28,4 +28,4 @@ const BING_SECRET_KEY = "<YOUR_API_KEY_HERE>";
 5. Search for "weather" or "weather in `<LOCATION_NAME>`" in the Urlbar.
 
 ## Known issues
-- After a weather result has been shown, subsequent results can be the wrong size.
+- The weather result occasionally will not show up the first time it is triggered (caching issue).
