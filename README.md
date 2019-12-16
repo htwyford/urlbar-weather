@@ -4,8 +4,8 @@ Watch a [short demo video](https://imgur.com/a/T81yjxJ).
 
 ## Instructions
 Be advised that the weather result is not currently supported in Nightly.
-In the meantime, [contact Harry Twyford](mailto:harry@mozilla.com) for a .diff
-to apply to your local build to support this result.
+Apply the stack of patches starting with [D56639](https://phabricator.services.mozilla.com/D56639)
+to test this extension.
 
 1. Clone this repo and install the dependencies.
 2. Create a file `src/secret_keys.js` with the following contents:
